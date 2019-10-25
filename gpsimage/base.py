@@ -201,7 +201,3 @@ class GPSImage(object):
                 if value:
                     container[key] = value
         return container
-
-if __name__ == '__main__':
-    img = GPSImage('/home/denis/Github/gpsimage/gpsimage/images/nikon_coolpix_aw100.jpg')
-    print img.json
